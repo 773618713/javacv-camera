@@ -53,7 +53,8 @@ public class JavaCvCameraTest {
 	 public static void main(String[] args) throws Exception, InterruptedException, FrameRecorder.Exception {
 	        //(http://www.ossrs.net/players/srs_player.html)这个网站可以在线测试，不用自己部署推流服务器
 	        //推流服务器的地址
-	        recordCamera("rtmp://www.ossrs.net:1935/live/demo", 25);
+	        //recordCamera("rtmp://www.ossrs.net:1935/live/demo", 25);
+		 recordCamera("rtmp://192.168.0.182:1935/oflaDemo/main", 25);
 	    }
 
 	    public static void recordCamera(String outputFile, double frameRate)
